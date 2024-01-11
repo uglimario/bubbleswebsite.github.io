@@ -93,11 +93,39 @@ h1 {
     transform: translateY(-50%);
 }
 
+.social-links > .img1,
+.social-links > .img2,
+.social-links > .img3 {
+    transition: transform 0.25s ;
+}
+  
+.social-links > .img1:hover {
+    transform: translateX(-7px); 
+}
+.social-links > .img2:hover {
+    transform: translateX(-7px);
+}
+.social-links > .img3:hover {
+    transform: translateX(-7px);
+}
+
 .useful-links {
     width: 50px;
     text-align: center;
     position: absolute;
     bottom: 30px;
+}
+
+.useful-links > .img1,
+.useful-links > .img2 {
+    transition: transform 0.2s;
+}
+
+.useful-links > .img1:hover {
+    transform: scale(0.9);
+}
+.useful-links > .img2:hover {
+    transform: scale(0.9);
 }
 
 .bubbles1 img {
