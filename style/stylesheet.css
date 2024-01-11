@@ -35,8 +35,8 @@
     border: 2px solid #fff;
     border-radius: 20px;
     font-weight: bold;
-    /*outline: none;
-    /*cursor: pointer;*/
+    outline: none;
+    cursor: pointer;
 
     transition: background-color 0.4s, border-color 0.5s /*, font-weight 1s*/ ;
 }
@@ -80,7 +80,7 @@ h1 {
 }
 
 .social-links img, .useful-links img {
-    width: 25px;
+    width: 33px;
     margin: 5px auto;
     cursor: pointer;
 }
